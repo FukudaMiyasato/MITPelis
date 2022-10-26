@@ -5,9 +5,13 @@ function Movie({data}){
         background: 'url(' + data.imageUrl + ')',
         backgroundSize: 'cover',
     };
+
+      const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };
   return(
-        <div className="movie-card">
-            <div className="movie-header" style={{background: 'url({data.imageUrl})', backgroundSize: 'cover'}}>
+        <a className="movie-card" onClick={() => openInNewTab(data.url)}>
+            <div className="movie-header" style={{background: myStyle.background, backgroundSize: myStyle.backgroundSize}}>
                 <div className="header-icon-container">
                     <a href="#">
                         <i className="material-icons header-icon"></i>
@@ -40,7 +44,7 @@ function Movie({data}){
                     </div>
                 </div>
             </div>
-        </div>
+        </a>
   )
   }
 

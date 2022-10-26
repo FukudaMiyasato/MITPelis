@@ -12,20 +12,16 @@ function App() {
       getData();
     }, []);
     console.log('loaded:', loaded, 'data:', data);
-  
+    const myFunction = ()=>{
+      alert("a");
+    }
     return (
       <>
         <div className="container">
-          <div className="col-sm">
+        <div className="col-sm">
             {loaded &&
               data.movies.map((movie, i) => (
-                // Step 3 - Rename '<nexttech-movie' to match the name of your new React Component in 'movies.js'
-                <Movie
-                  // Do NOT remove this key attribute
-                  key={i}
-                  // Step 2 - Replace all of the attributes below with a single `data` attribute that have `movie` assigned as the value
-                  data={movie}
-                />
+                <Movie key={i} data={movie} />
               ))}
           </div>
         </div>

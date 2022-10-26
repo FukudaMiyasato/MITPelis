@@ -6,6 +6,7 @@
         "screen": "4",
         "row": "F",
         "seat": "21,21",
+        "url": "https://es.wikipedia.org/wiki/Casablanca_(pel%C3%ADcula)",
         "imageUrl": "https://resizing.flixster.com/1AihiP2VoZOgyhOx4EBb4Oyj57g=/206x305/v2/https://flxt.tmsimg.com/assets/p651_p_v13_az.jpg"
       },
       {
@@ -14,6 +15,7 @@
         "screen": "2",
         "row": "C",
         "seat": "8,9",
+        "url":"https://en.wikipedia.org/wiki/The_Wizard_of_Oz_(1939_film)",
         "imageUrl": "https://resizing.flixster.com/ulqUDhVVuKGWDLeBtkp9KjyReo8=/206x305/v2/https://flxt.tmsimg.com/NowShowing/129612/129612_ab.jpg"
       },
       {
@@ -22,6 +24,7 @@
         "screen": "7",
         "row": "A",
         "seat": "15,17",
+        "url":"https://es.wikipedia.org/wiki/Citizen_Kane",
         "imageUrl": "https://resizing.flixster.com/TFBv-8EpN6nFPkEcsGPzQxgndF4=/206x305/v2/https://flxt.tmsimg.com/assets/p1485_p_v10_ac.jpg"
       }
     ]
